@@ -1,0 +1,256 @@
+::-webkit-scrollbar {
+    width: 8px
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px
+}
+
+#primary-menu .icon-home2 {
+    font-size: 26px
+}
+
+#primary-menu ul ul li>a {
+    color: #ff0800
+}
+
+#primary-menu .menu-18>a {
+    color: #0e62ac!important
+}
+
+#primary-menu .menu-18 ul {
+    border-top: 2px solid #0e62ac!important
+}
+
+#primary-menu .menu-18 ul a {
+    color: #0e62ac!important
+}
+
+#primary-menu .menu-19>a {
+    color: #0b73c4!important
+}
+
+#primary-menu .menu-19 ul {
+    border-top: 2px solid #0b73c4!important
+}
+
+#primary-menu .menu-19 ul a {
+    color: #0b73c4!important
+}
+
+.languages {
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    padding-right: 10px;
+    height: 60px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease
+}
+
+body.top-search-open .languages {
+    display: none
+}
+
+.sticky-header .languages {
+    height: 60px
+}
+
+.sticky-header .languages-switcher .langs {
+    margin-top: 0
+}
+
+.languages-switcher .langs {
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease
+}
+
+.languages-switcher .langs span {
+    display: block;
+    width: 25px;
+    height: 100%;
+    line-height: 60px;
+    float: left;
+    opacity: .5;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+
+
+.languages-switcher .langs span:hover {
+    opacity: 1
+}
+
+.languages-switcher .langs span.current-lang {
+    opacity: 1
+}
+
+.languages-switcher .langs span>a:hover,
+.languages-switcher .langs span.current-lang>a:hover { 
+	color: #ff3d3d;
+}
+.languages-switcher .langs span>a,
+.languages-switcher .langs span.current-lang>a {
+    pointer-events: none;
+    color: #000;
+}
+
+
+
+.languages-switcher .langs span img {
+    border: 1px solid rgba(0, 0, 0, 0.25)
+}
+
+.hidden-categories {
+    display: none
+}
+
+.col_full .alert {
+    border-radius: 0;
+    margin: 0
+}
+
+.page-shops .col_one_third p {
+    margin: 0
+}
+
+.page-career .panel .panel-heading {
+    text-align: center;
+    font-size: 18px;
+    color: #78bb38;
+    cursor: pointer
+}
+
+.faq-page p,
+.faq-page h3 {
+    margin: 0
+}
+
+.faq-page .fbox-icon a {
+    padding-right: 15px
+}
+
+.faq-page .fbox-icon img {
+    height: auto!important
+}
+
+.autocomplete-suggestion {
+    cursor: pointer
+}
+
+.autocomplete-suggestion b {
+    color: #78bb38;
+    font-weight: 600
+}
+
+#footer.dark .social-icon.si-borderless,
+.dark #copyrights {
+    color: rgba(255, 255, 255, 0.85)!important
+}
+
+.product-view table {
+    width: 100%!important;
+    height: auto;
+    border: 1px solid #eee
+}
+
+.product-view table tr,
+.product-view table td {
+    border: 1px solid #eee;
+    padding: 2px
+}
+
+.product-view table tr:hover td {
+    background-color: #ebebeb
+}
+
+#copyrights .col_half:last-child {
+    display: block
+}
+
+#copyrights .col_half p {
+    text-align: left
+}
+
+#copyrights .catalog a {
+    display: block;
+    padding-left: 45px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    height: 40px
+}
+
+#copyrights .catalog a.tv {
+    background: url("/frontend/web/artel/images/icons/catalog/tv.png") no-repeat
+}
+
+#copyrights .catalog a.iron {
+    background: url("/frontend/web/artel/images/icons/catalog/iron.png") no-repeat
+}
+
+#copyrights .catalog a.shivaki {
+    background: url("/frontend/web/artel/images/icons/catalog/shivaki.png") no-repeat
+}
+
+#copyrights .catalog a:hover {
+    background-position-y: -40px
+}
+
+
+
+@media(max-width:1024px) {
+    #primary-menu ul li>a {
+        padding: 39px 5px
+    }
+}
+
+@media(max-width:991px) {
+    .languages {
+        border-right: 0;
+        padding-right: 0;
+        height: auto;
+        position: absolute;
+        top: 21%;
+    right: 10%;
+    }
+    .languages-switcher .langs {
+        margin-top: 0
+    }
+    .languages-switcher .langs span {
+        float: left;
+        margin-right: 5px
+    }
+}
+
+@media(max-width:480px) {
+    #logo img {
+        max-width: 75%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 25%
+    }
+}
+
+.logo img {
+	opacity: 0.9;
+}
