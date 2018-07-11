@@ -30,3 +30,11 @@ Route::get('/contacts', 'FrontendController@contacts');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('categories', 'CategoryController');
+
+Route::resource('attributes', 'AttributeController');
+
+Route::resource('products', 'ProductController');
+
+Route::resource('values', 'ValueController');
