@@ -57,5 +57,10 @@ class Product extends Model
     public function attributes()
     {
         return $this->morphMany('App\Models\Value', 'attributable');
-    }       
+    }
+
+    public function category()
+    {
+        return $this->morphTo();
+    } 
 }

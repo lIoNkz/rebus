@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Category;
+use App\Models\Product;
+
 
 class FrontendController extends Controller
 {
@@ -26,19 +29,22 @@ class FrontendController extends Controller
    		return view('frontend.warranty');
    	}
 
-   	public function brand($id ='')
+   	public function brand()
    	{
    		return view('frontend.brand');
    	}
 
-   	public function category($id ='')
+   	public function category($id)
    	{
-   		return view('frontend.category');
+         $products = Product::where('category_id', $id)->get();
+         
+   		return view('frontend.category', compact('products'));
    	}
 
-   	public function product($id ='')
+   	public function product($id)
    	{
-   		return view('frontend.product');
+         $product = Product::where('id', $id)->first();
+   		return view('frontend.product', compact('product'));
    	}
 
    	public function service()

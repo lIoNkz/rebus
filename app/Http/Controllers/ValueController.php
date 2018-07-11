@@ -10,6 +10,9 @@ use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
+use App\Models\Value;
+use App\Models\Attribute;
+use App\Models\Product;
 
 class ValueController extends AppBaseController
 {
@@ -46,6 +49,26 @@ class ValueController extends AppBaseController
         return view('values.create');
     }
 
+    public function add_value($product_id)
+    {
+        $category_id = Product::where('id', $product_id)->first()->category_id;
+        $attrs = Attribute::where('category_id', $category_id)->get();
+
+        $array = [];
+        foreach ($attrs as $attr) {
+            $array = array_add($array, $attr->attr_name, $attr->attr_name);
+        }
+
+        return view('products.add_value', compact('array'))->with('product_id', $product_id);
+    }
+
+    public function edit_values($value_id, $product_id)
+    {
+        $value = Value::where('id', $value_id)->first();
+        return view('products.edit_value', compact('value'))->with(['value_id'=> $value_id,
+                                                                    'product_id' => $product_id 
+                                                                ]);
+    }
     /**
      * Store a newly created Value in storage.
      *
@@ -60,8 +83,12 @@ class ValueController extends AppBaseController
         $value = $this->valueRepository->create($input);
 
         Flash::success('Value saved successfully.');
+        if(!($request->toProduct)) {
+            return redirect(route('values.index'));
+        } else {
+            return redirect(route('show_values_of_product', [$request->toProduct]));
+        }
 
-        return redirect(route('values.index'));
     }
 
     /**

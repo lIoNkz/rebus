@@ -8,12 +8,11 @@
 
         <div class="container clearfix">
 
-            <h1>R WH 1.5 30</h1>
+            <h1>{{ $product->name }}</h1>
 
             <ul class="breadcrumb"><li><a href="/">Home</a></li>
-<li><a href="/brand/14">Royal</a></li>
-<li><a href="/category/136">Electrical water heaters</a></li>
-<li class="active">R WH 1.5 30</li>
+<li><a href="/category/136">{{ $product->category_id }}</a></li>
+<li class="active">{{ $product->name }}</li>
 </ul>
         </div>
 
@@ -58,13 +57,13 @@
                 ============================================= -->
                 <div class="panel panel-default product-meta">
                     <div class="panel-body">
-                        <span itemprop="productID" class="sku_wrapper">SKU: <span
-                                class="sku">RWH1.530</span></span>
-                        <span class="posted_in">
-                            Category: <a href="../category/136">Electrical water heaters</a>                        </span>
+                        <span itemprop="productID" class="sku_wrapper">Название:<span
+                                class="sku">{{ $product->name }}</span></span>
+                        <<!-- span class="posted_in">
+                            Category: <a href="../category/136">Electrical water heaters</a>                        </span> -->
 
                         <span class="tagged_as">
-                            Brand: <a href="../brand/14">Royal</a>                        </span>
+                            Brand: <a href="../brand/14">LG</a>                        </span>
                     </div>
                 </div><!-- Product Single - Meta End -->
 
@@ -74,7 +73,7 @@
             <div class="line"></div>
 
             <div class="col_full nobottommargin">
-                <h2>TECHNICAL SPECIFICATIONS</h2>
+                <h2>Технические характеристики</h2>
 
 <div class="table-responsive">
 <table class="table table-bordered nobottommargin">

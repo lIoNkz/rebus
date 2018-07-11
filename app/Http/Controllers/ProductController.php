@@ -10,6 +10,8 @@ use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
+use App\Models\Category;
+use App\Models\Value;
 
 class ProductController extends AppBaseController
 {
@@ -36,6 +38,11 @@ class ProductController extends AppBaseController
             ->with('products', $products);
     }
 
+    public function show_values($id)
+    {
+        $values = Value::where('product_id', $id)->get();
+        return view('products.show_values', compact('values'))->with('product_id',$id);
+    }
     /**
      * Show the form for creating a new Product.
      *
@@ -43,7 +50,14 @@ class ProductController extends AppBaseController
      */
     public function create()
     {
-        return view('products.create');
+        $categories = Category::all();
+
+        $array = [];
+        foreach ($categories as $cat) {
+            $array = array_add($array, $cat->id, $cat->name);
+        }
+
+        return view('products.create', compact('array'));
     }
 
     /**
@@ -101,7 +115,15 @@ class ProductController extends AppBaseController
             return redirect(route('products.index'));
         }
 
-        return view('products.edit')->with('product', $product);
+        $categories = Category::all();
+
+
+        $array = [];
+        foreach ($categories as $cat) {
+            $array = array_add($array, $cat->id, $cat->name);
+        }
+
+        return view('products.edit', compact('array'))->with('product', $product);
     }
 
     /**

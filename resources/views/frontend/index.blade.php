@@ -68,112 +68,112 @@
          class="portfolio portfolio-nomargin portfolio-notitle portfolio-full clearfix">
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/43"><img src="img/products/categories/images/Mockups/mbt_cat.jpg" alt="Мелкая бытовая техника"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/43"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/43"><img src="img/products/categories/images/Mockups/mbt_cat.jpg" alt="Мелкая бытовая техника"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/43"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/43">Мелкая бытовая техника</a>                    </h3>
+                        <a href="/category/43">Мелкая бытовая техника</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/45"><img src="img/products/categories/images/Mockups/plita_cat.jpg" alt="Плиты"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/45"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/45"><img src="img/products/categories/images/Mockups/plita_cat.jpg" alt="Плиты"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/45"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/45">Плиты</a>                    </h3>
+                        <a href="/category/45">Плиты</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/46"><img src="img/products/categories/images/Mockups/washing_cat.jpg" alt="Стиральные машины"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/46"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/46"><img src="img/products/categories/images/Mockups/washing_cat.jpg" alt="Стиральные машины"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/46"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/46">Стиральные машины</a>                    </h3>
+                        <a href="/category/46">Стиральные машины</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/47"><img src="img/products/categories/images/Mockups/built_in_cat.jpg" alt="Встраиваемая техника"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/47"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/47"><img src="img/products/categories/images/Mockups/built_in_cat.jpg" alt="Встраиваемая техника"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/47"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/47">Встраиваемая техника</a>                    </h3>
+                        <a href="/category/47">Встраиваемая техника</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/48"><img src="img/products/categories/images/Mockups/aircond_cat.jpg" alt="Кондиционеры"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/48"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/48"><img src="img/products/categories/images/Mockups/aircond_cat.jpg" alt="Кондиционеры"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/48"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/48">Кондиционеры</a>                    </h3>
+                        <a href="/category/48">Кондиционеры</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/49"><img src="img/products/categories/images/Mockups/tv_cat.jpg" alt="Телевизоры"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/49"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/49"><img src="img/products/categories/images/Mockups/tv_cat.jpg" alt="Телевизоры"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/49"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/49">Телевизоры</a>                    </h3>
+                        <a href="/category/49">Телевизоры</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/51"><img src="img/products/categories/images/Mockups/fridge_cat.jpg" alt="Холодильники"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/51"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/51"><img src="img/products/categories/images/Mockups/fridge_cat.jpg" alt="Холодильники"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/51"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/51">Холодильники</a>                    </h3>
+                        <a href="/category/51">Холодильники</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/52"><img src="img/products/categories/images/Mockups/microwave_cat.jpg" alt="Микроволновые печи"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/52"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/52"><img src="img/products/categories/images/Mockups/microwave_cat.jpg" alt="Микроволновые печи"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/52"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/52">Микроволновые печи</a>                    </h3>
+                        <a href="/category/52">Микроволновые печи</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item  hidden-categories">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/53"><img src="img/products/categories/images/Mockups/mini_oven_cat.jpg" alt="Мини-печи"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/53"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/53"><img src="img/products/categories/images/Mockups/mini_oven_cat.jpg" alt="Мини-печи"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/53"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/53">Мини-печи</a>                    </h3>
+                        <a href="/category/53">Мини-печи</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item hidden-categories">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/54"><img src="img/products/categories/images/Mockups/vacuum_cat.jpg" alt="Пылесосы"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/54"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/54"><img src="img/products/categories/images/Mockups/vacuum_cat.jpg" alt="Пылесосы"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/54"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/54">Пылесосы</a>                    </h3>
+                        <a href="/category/54">Пылесосы</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item hidden-categories">
                 <div class="portfolio-image">
-                    <a href="http://www.artelgroup.org/ru/products/category/56"><img src="img/products/categories/images/Mockups/hoods_cat.jpg" alt="Вытяжки"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="http://www.artelgroup.org/ru/products/category/56"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/56"><img src="img/products/categories/images/Mockups/hoods_cat.jpg" alt="Вытяжки"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/56"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="http://www.artelgroup.org/ru/products/category/56">Вытяжки</a>                    </h3>
+                        <a href="/category/56">Вытяжки</a>                    </h3>
                 </div>
             </article>
             </div>
@@ -205,7 +205,7 @@
                 <div class="col_one_fourth nobottommargin">
                     <div class="feature-box fbox-center fbox-effect nobottomborder">
                         <div class="fbox-icon">
-                            <a href="http://www.artelgroup.org/ru/page/service-centers"><i class="i-alt noborder icon-line-ribbon"></i></a>
+                            <a href="/page/service-centers"><i class="i-alt noborder icon-line-ribbon"></i></a>
                         </div>
                         <h3>Сервисные центры
                             <span class="subtitle">Возникли вопросы по эксплуатации или гарантийному обслуживанию? Обратитесь в ближайший сервисный центр.</span>
@@ -216,7 +216,7 @@
                 <div class="col_one_fourth nobottommargin">
                     <div class="feature-box fbox-center fbox-effect nobottomborder">
                         <div class="fbox-icon">
-                            <a href="http://www.artelgroup.org/ru/page/contacts"><i class="i-alt noborder icon-line-briefcase"></i></a>
+                            <a href="/page/contacts"><i class="i-alt noborder icon-line-briefcase"></i></a>
                         </div>
                         <h3>Пожелания и предложения
                             <span class="subtitle">Будем рады узнать Ваше мнение!</span>
@@ -259,9 +259,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/view/41"><img class="grayscale-h" src="img/articles/images/news/Ru/Dushanbe.png" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/Dushanbe.png" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/view/41">Artel в Таджикистане на выставке-ярмарке отечественных производителей Узбекистана </a></h3>
+                                <h3><a href="news/">Artel в Таджикистане на выставке-ярмарке отечественных производителей Узбекистана </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>
@@ -278,9 +278,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/view/40"><img class="grayscale-h" src="img/articles/images/news/Ru/Kabul_Afghanistan.png" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/Kabul_Afghanistan.png" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/view/40">Презентация бытовой техники Artel в Афганистане</a></h3>
+                                <h3><a href="news/">Презентация бытовой техники Artel в Афганистане</a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>
@@ -297,9 +297,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/view/39"><img class="grayscale-h" src="img/articles/images/news/Ru/ashxabad_news.png" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/ashxabad_news.png" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/view/39">Artel на универсальной выставке «Международное экономическое развитие – 2017» в Туркменистане</a></h3>
+                                <h3><a href="news/">Artel на универсальной выставке «Международное экономическое развитие – 2017» в Туркменистане</a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>
@@ -316,9 +316,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/view/38"><img class="grayscale-h" src="img/articles/images/news/Ru/conton_news.jpg" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/conton_news.jpg" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/view/38">Artel на международной выставке Canton Fair 2017</a></h3>
+                                <h3><a href="news/">Artel на международной выставке Canton Fair 2017</a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>

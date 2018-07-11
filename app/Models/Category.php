@@ -51,4 +51,9 @@ class Category extends Model
     {
         return $this->morphMany('App\Models\Attribute', 'attributable');
     }    
+
+    public function products()
+    {
+        return $this->morphMany('App\Models\Product', 'category');
+    }   
 }

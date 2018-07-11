@@ -31,8 +31,8 @@
                         <i class="i-alt noborder icon-map-marker"></i>
                     </div>
                     <div class="col_five_sixth col_last">
-                        <h5>HEAD OFFICE IN TASHKENT</h5>
-                        <p>Address:	Uzbekistan, Tashkent city, Yashnobod district, Maxtumquli st., 2</p>
+                        <h5>HEAD OFFICE IN SEOUL</h5>
+                        <p>Address:	SOuth Korea, Seoul, PyohnHang district, Max st., 2</p>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="col_five_sixth col_last">
                         <h5>E-mail</h5>
-                        <p>info@artelgroup.org</p>
+                        <p>info@lg.com</p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col_five_sixth col_last">
                         <h5>INTERNATIONAL INQUIRIES</h5>
-                        <p>Phone: +998 (71) 202-77-88; E-mail: info@artelgroup.org</p>
+                        <p>Phone: +998 (71) 202-77-88; E-mail: info@lg.com</p>
                     </div>
                 </div>
             </div>        </div>

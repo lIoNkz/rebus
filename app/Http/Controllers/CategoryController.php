@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
+use App\Models\Attribute;
 
 class CategoryController extends AppBaseController
 {
@@ -46,6 +47,11 @@ class CategoryController extends AppBaseController
         return view('categories.create');
     }
 
+    public function show_attr($id)
+    {
+        $attributes = Attribute::where('category_id', $id)->get();
+        return view('categories.show_attr', compact('attributes'));
+    }
     /**
      * Store a newly created Category in storage.
      *

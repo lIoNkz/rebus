@@ -14128,3 +14128,9 @@ body:not(.no-transition) #wrapper,
 #primary-menu {
     user-select: none;
 }
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+    }
+}

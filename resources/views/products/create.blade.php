@@ -15,6 +15,8 @@
                     {!! Form::open(['route' => 'products.store']) !!}
 
                         @include('products.fields')
+                        
+
 
                     {!! Form::close() !!}
                 </div>
