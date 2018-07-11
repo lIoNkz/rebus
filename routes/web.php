@@ -25,3 +25,8 @@ Route::get('/service', 'FrontendController@service');
 Route::get('/vacancies', 'FrontendController@vacancy');
 Route::get('/fillform', 'FrontendController@fillform');
 Route::get('/contacts', 'FrontendController@contacts');
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
