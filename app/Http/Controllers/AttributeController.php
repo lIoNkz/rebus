@@ -62,6 +62,12 @@ class AttributeController extends AppBaseController
      *
      * @return Response
      */
+    
+    public function add_attr($category_id)
+    {
+        return view('categories.add_attr')->with('category_id', $category_id);
+    }
+
     public function store(CreateAttributeRequest $request)
     {
         $input = $request->all();
@@ -70,7 +76,11 @@ class AttributeController extends AppBaseController
 
         Flash::success('Attribute saved successfully.');
 
-        return redirect(route('attributes.index'));
+        if(!($request->category_id)) {
+            return redirect(route('attributes.index'));
+        } else {
+            return redirect(route('show_attrs_of_category', [$request->category_id]));
+        }
     }
 
     /**

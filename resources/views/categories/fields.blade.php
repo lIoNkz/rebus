@@ -7,7 +7,7 @@
 <!-- Parent Id Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('parent_id', 'Parent Id:') !!}
-    {!! Form::text('parent_id', null, ['class' => 'form-control']) !!}
+    {!! Form::select('parent_id', App\Models\Category::select() , null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Submit Field -->

@@ -50,7 +50,7 @@ class CategoryController extends AppBaseController
     public function show_attr($id)
     {
         $attributes = Attribute::where('category_id', $id)->get();
-        return view('categories.show_attr', compact('attributes'));
+        return view('categories.show_attr', compact('attributes'))->with('category_id', $id);
     }
     /**
      * Store a newly created Category in storage.

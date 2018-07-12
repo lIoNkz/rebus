@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Kalnoy\Nestedset\NodeTrait;
 
 /**
  * Class Category
@@ -16,6 +17,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Category extends Model
 {
     use SoftDeletes;
+    use NodeTrait;
 
     public $table = 'categories';
     
@@ -55,5 +57,32 @@ class Category extends Model
     public function products()
     {
         return $this->morphMany('App\Models\Product', 'category');
-    }   
+    } 
+
+    public static function children() {
+        
+        $array = [];
+        $parents = self::withDepth()->having('depth','=', 0)->get();
+
+
+
+        foreach($parents as $cat) {
+            $children = [];
+            if($cat->hasChildren()) {
+                $categories = $cat->descendants;
+            }
+
+            $children = $categories->all();
+
+            $array[$cat->id] = [
+                'category' => $cat,
+                'children' => $children
+            ];
+        }
+    } 
+
+    public static function select() {
+        $res = self::withDepth()->having('depth','=', 0)->get();
+        return ['' => 'Верхний уровень'] + $res->pluck('name', 'id')->all();
+    }
 }
