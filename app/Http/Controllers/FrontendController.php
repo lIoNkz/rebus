@@ -38,13 +38,14 @@ class FrontendController extends Controller
    	{
          $products = Product::where('category_id', $id)->get();
          $category = Category::where('id', $id)->first()->name;
-            
+         
    		return view('frontend.category', compact('products'))->with('category', $category);
    	}
 
       public function subcategory($id)
       {
          $categories = Category::find($id)->descendants;
+
          $category = Category::find($id)->name;
          //$number = Category::find($id)->descendants->first()->id;
         // $depth = Category::find($id)->descendants->first()->withDepth()->find(21)->depth;
@@ -56,9 +57,9 @@ class FrontendController extends Controller
 
    	public function product($id)
    	{
-         $product = Product::where('id', $id)->first();
-         $category_id = Product::where('category_id', $product->category_id)->first()->category_id;
-         $category = Category::find($category_id)->first()->name;
+         $product = Product::find($id);
+         $category = Category::find($product->category_id)->name;
+
    		return view('frontend.product', compact('product'))->with('category', $category);
    	}
 

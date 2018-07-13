@@ -11,7 +11,6 @@
             <h1>{{ $category }}</h1>
 
             <ul class="breadcrumb"><li><a href="/">Главная</a></li>
-<li><a href="/brand">Rebus</a></li>
 <li class="active">{{ $category }}</li>
 </ul>
         </div>
