@@ -47,7 +47,7 @@ class FrontendController extends Controller
          $categories = Category::children($id);
 
          $category = Category::find($id)->name;
-         
+
          return view('frontend.subcategory', compact('categories'))->with('category', $category);
 
       }
