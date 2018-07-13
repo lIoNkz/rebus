@@ -32,22 +32,24 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 
-
-Route::resource('categories', 'CategoryController');
-Route::get('/categories/show_attr/{id}', 'CategoryController@show_attr')->name('show_attrs_of_category');
-Route::get('/categories/add_attr/{id}', 'AttributeController@add_attr')->name('add_attr');
-
-
-
-Route::resource('attributes', 'AttributeController');
+Route::group(['middleware' => ['auth']], function () {
+	Route::resource('categories', 'CategoryController');
+	Route::get('/categories/show_attr/{id}', 'CategoryController@show_attr')->name('show_attrs_of_category');
+	Route::get('/categories/add_attr/{id}', 'AttributeController@add_attr')->name('add_attr');
 
 
 
-Route::resource('products', 'ProductController');
-Route::get('/products/show_values/{id}', 'ProductController@show_values')->name('show_values_of_product');
-Route::get('/products/add_value/{id}', 'ValueController@add_value')->name('add_value');
-Route::get('/products/edit_values/{value}/{product}', 'ValueController@edit_values')->name('edit_values');
+	Route::resource('attributes', 'AttributeController');
 
 
 
-Route::resource('values', 'ValueController');
+	Route::resource('products', 'ProductController');
+	Route::get('/products/show_values/{id}', 'ProductController@show_values')->name('show_values_of_product');
+	Route::get('/products/add_value/{id}', 'ValueController@add_value')->name('add_value');
+	Route::get('/products/edit_values/{value}/{product}', 'ValueController@edit_values')->name('edit_values');
+
+
+
+	Route::resource('values', 'ValueController');
+    
+});
