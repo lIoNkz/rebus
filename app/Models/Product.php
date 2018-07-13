@@ -29,6 +29,7 @@ class Product extends Model
         'name',
         'code',
         'price',
+        'img',
         'category_id'
     ];
 
@@ -41,6 +42,7 @@ class Product extends Model
         'name' => 'string',
         'code' => 'integer',
         'price' => 'integer',
+        'img' => 'string',
         'category_id' => 'integer'
     ];
 
@@ -51,6 +53,7 @@ class Product extends Model
      */
     public static $rules = [
         'name' => 'required',
+        'img' => 'required',
         'category_id' => 'required'
     ];
 

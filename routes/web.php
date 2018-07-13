@@ -20,6 +20,7 @@ Route::get('/about', 'FrontendController@about');
 Route::get('/warranty', 'FrontendController@warranty');
 Route::get('/brand', 'FrontendController@brand');
 Route::get('/category/{id?}', 'FrontendController@category');
+Route::get('/subcategory/{id?}', 'FrontendController@subcategory');
 Route::get('/product/{id?}', 'FrontendController@product');
 Route::get('/service', 'FrontendController@service');
 Route::get('/vacancies', 'FrontendController@vacancy');

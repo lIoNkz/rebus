@@ -1,6 +1,7 @@
 <table class="table table-responsive" id="products-table">
     <thead>
         <tr>
+            <th>Img</th>
             <th>Name</th>
         <th>Code</th>
         <th>Price</th>
@@ -11,6 +12,7 @@
     <tbody>
     @foreach($products as $product)
         <tr>
+            <td><img src="img/products/{!! $product->category_id !!}/{!! $product->img !!}" alt="" style="width: 200px;"></td>
             <td>{!! $product->name !!}</td>
             <td>{!! $product->code !!}</td>
             <td>{!! $product->price !!}</td>

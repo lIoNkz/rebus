@@ -172,7 +172,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="inputEx1">
-                                        Работали ли Вы ранее в ГП "ARTEL"                                    </label>
+                                        Работали ли Вы ранее в ГП "Rebus"                                    </label>
                                     <input id="inputEx1" name="did_u_work" type="text" class="form-control"
                                            placeholder="кем вы работали, на каком предприятии">
                                 </div>

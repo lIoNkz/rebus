@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link href="/css/fonts.css" rel="stylesheet">
 	<link href="/css/swiper.min.css" rel="stylesheet">
 	<link href="/css/dark.min.css" rel="stylesheet">
 	<link href="/css/font-icons.min.css" rel="stylesheet">

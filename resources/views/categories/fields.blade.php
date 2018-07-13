@@ -10,6 +10,12 @@
     {!! Form::select('parent_id', App\Models\Category::select() , null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- Img Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('img', 'img:') !!}
+    {!! Form::text('img', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
     {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}

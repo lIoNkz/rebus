@@ -9,10 +9,10 @@ use App\Models\Product;
 
 class FrontendController extends Controller
 {
-    public function index()
-    {
-    	return view('frontend.index');
-    }
+      public function index()
+      {
+       	return view('frontend.index', compact('menu'));
+      }
 
    	public function news()
    	{
@@ -37,14 +37,29 @@ class FrontendController extends Controller
    	public function category($id)
    	{
          $products = Product::where('category_id', $id)->get();
-         
-   		return view('frontend.category', compact('products'));
+         $category = Category::where('id', $id)->first()->name;
+            
+   		return view('frontend.category', compact('products'))->with('category', $category);
    	}
+
+      public function subcategory($id)
+      {
+         $categories = Category::find($id)->descendants;
+         $category = Category::find($id)->name;
+         //$number = Category::find($id)->descendants->first()->id;
+        // $depth = Category::find($id)->descendants->first()->withDepth()->find(21)->depth;
+        // dd($depth);
+         //$isLastCategory
+         return view('frontend.subcategory', compact('categories'))->with('category', $category);
+
+      }
 
    	public function product($id)
    	{
          $product = Product::where('id', $id)->first();
-   		return view('frontend.product', compact('product'));
+         $category_id = Product::where('category_id', $product->category_id)->first()->category_id;
+         $category = Category::find($category_id)->first()->name;
+   		return view('frontend.product', compact('product'))->with('category', $category);
    	}
 
    	public function service()
@@ -66,4 +81,5 @@ class FrontendController extends Controller
    	{
    		return view('frontend.contacts');
    	}
+
 }

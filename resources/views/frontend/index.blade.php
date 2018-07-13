@@ -15,15 +15,24 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <div class="item active">
-                <img src="img/sliders/home/ru/Washer_Banner_RU_ArtelGroupOrg.jpg" alt="Baner1" title="">
+                <img src="img/sliders/home/ru/tv.jpg" alt="Baner1" title="" style="width: 100%;">
               </div>
 
               <div class="item">
-                 <img src="img/sliders/home/ru/Hood_Banner_RU_ArtelGroupOrg&#32;(2).jpg" alt="Ban4" title="">
+                 <img src="img/sliders/home/ru/stove.jpg" alt="Ban4" title="" style="width: 100%;">
               </div>
             
               <div class="item">
-                <img src="img/sliders/home/ru/TV_Banner_RU_ArtelGroupOrg.jpg" alt="Ban6" title="">
+                <img src="img/sliders/home/ru/wash.jpg" alt="Ban6" title="" style="width: 100%;">
+              </div>
+              <div class="item">
+                <img src="img/sliders/home/ru/small.jpg" alt="Ban6" title="" style="width: 100%;">
+              </div>
+              <div class="item">
+                <img src="img/sliders/home/ru/oven.jpg" alt="Ban6" title="" style="width: 100%;">
+              </div>
+              <div class="item">
+                <img src="img/sliders/home/ru/gas.jpg" alt="Ban6" title="" style="width: 100%;">
               </div>
             </div>
 
@@ -66,116 +75,124 @@
     </div>
     <div id="portfolio"
          class="portfolio portfolio-nomargin portfolio-notitle portfolio-full clearfix">
+         <div class="row">
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="/category/43"><img src="img/products/categories/images/Mockups/mbt_cat.jpg" alt="Мелкая бытовая техника"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/43"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/subcategory/11"><img src="/img/categories/11.jpg" alt="Мелкая бытовая техника"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/subcategory/11"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/43">Мелкая бытовая техника</a>                    </h3>
+                        <a href="/subcategory/11">Мелкая бытовая техника</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="/category/45"><img src="img/products/categories/images/Mockups/plita_cat.jpg" alt="Плиты"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/45"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/subcategory/1"><img src="/img/categories/1.jpg" alt="Плиты"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/subcategory/1"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/45">Плиты</a>                    </h3>
+                        <a href="/subcategory/1">Телевизоры</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="/category/46"><img src="img/products/categories/images/Mockups/washing_cat.jpg" alt="Стиральные машины"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/46"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/subcategory/2"><img src="/img/categories/2.jpg" alt="Стиральные машины"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/subcategory/2"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/46">Стиральные машины</a>                    </h3>
+                        <a href="/subcategory/2">Стиральные машины</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="/category/47"><img src="img/products/categories/images/Mockups/built_in_cat.jpg" alt="Встраиваемая техника"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/47"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/subcategory/3"><img src="/img/categories/3.jpeg" alt="Встраиваемая техника"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/subcategory/3"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/47">Встраиваемая техника</a>                    </h3>
+                        <a href="/subcategory/3">Плиты</a>                    </h3>
+                </div>
+            </article>             
+         </div>
+<div class="row">
+                    <article class="portfolio-item ">
+                <div class="portfolio-image">
+                    <a href="/category/12"><img src="/img/categories/12.jpg" alt="Кондиционеры"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/12"><i class="icon-line-ellipsis"></i></a>                    </div>
+                </div>
+                <div class="portfolio-desc">
+                    <h3>
+                        <a href="/category/12">Кондиционеры</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item ">
                 <div class="portfolio-image">
-                    <a href="/category/48"><img src="img/products/categories/images/Mockups/aircond_cat.jpg" alt="Кондиционеры"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/48"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/13"><img src="/img/categories/13.jpg" alt="Телевизоры"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/13"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/48">Кондиционеры</a>                    </h3>
-                </div>
-            </article>
-                    <article class="portfolio-item ">
-                <div class="portfolio-image">
-                    <a href="/category/49"><img src="img/products/categories/images/Mockups/tv_cat.jpg" alt="Телевизоры"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/49"><i class="icon-line-ellipsis"></i></a>                    </div>
-                </div>
-                <div class="portfolio-desc">
-                    <h3>
-                        <a href="/category/49">Телевизоры</a>                    </h3>
+                        <a href="/category/13">Холодильники</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item">
                 <div class="portfolio-image">
-                    <a href="/category/51"><img src="img/products/categories/images/Mockups/fridge_cat.jpg" alt="Холодильники"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/51"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/subcategory/15"><img src="/img/categories/15.jpg" alt="Холодильники"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/subcategory/15"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/51">Холодильники</a>                    </h3>
+                        <a href="/subcategory/15">Печи</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item">
                 <div class="portfolio-image">
-                    <a href="/category/52"><img src="img/products/categories/images/Mockups/microwave_cat.jpg" alt="Микроволновые печи"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/52"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/16"><img src="/img/categories/16.jpg" alt="Микроволновые печи"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/16"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/52">Микроволновые печи</a>                    </h3>
+                        <a href="/category/16">Пылесосы</a>                    </h3>
                 </div>
-            </article>
-                    <article class="portfolio-item  hidden-categories">
+            </article>    
+</div>
+
+<div class="row">
+                     <article class="portfolio-item  hidden-categories">
                 <div class="portfolio-image">
-                    <a href="/category/53"><img src="img/products/categories/images/Mockups/mini_oven_cat.jpg" alt="Мини-печи"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/53"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/17"><img src="/img/categories/17.jpg" alt="Мини-печи"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/17"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/53">Мини-печи</a>                    </h3>
+                        <a href="/category/17">Вытяжки</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item hidden-categories">
                 <div class="portfolio-image">
-                    <a href="/category/54"><img src="img/products/categories/images/Mockups/vacuum_cat.jpg" alt="Пылесосы"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/54"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/30"><img src="/img/categories/30.jpg" alt="Пылесосы"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/30"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/54">Пылесосы</a>                    </h3>
+                        <a href="/category/30">Отопительные котлы</a>                    </h3>
                 </div>
             </article>
                     <article class="portfolio-item hidden-categories">
                 <div class="portfolio-image">
-                    <a href="/category/56"><img src="img/products/categories/images/Mockups/hoods_cat.jpg" alt="Вытяжки"></a>                    <div class="portfolio-overlay">
-                        <a class="center-icon" href="/category/56"><i class="icon-line-ellipsis"></i></a>                    </div>
+                    <a href="/category/31"><img src="/img/categories/31.jpg" alt="Вытяжки"></a>                    <div class="portfolio-overlay">
+                        <a class="center-icon" href="/category/31"><i class="icon-line-ellipsis"></i></a>                    </div>
                 </div>
                 <div class="portfolio-desc">
                     <h3>
-                        <a href="/category/56">Вытяжки</a>                    </h3>
+                        <a href="/category/31">Музыкальное оборудование</a>                    </h3>
                 </div>
-            </article>
+            </article>   
+</div>
+
             </div>
     <div class="clear"></div>
             <div class="button button-full button-dark center tright more-categories">
@@ -259,9 +276,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/Dushanbe.png" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/1.jpg" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/">Artel в Таджикистане на выставке-ярмарке отечественных производителей Узбекистана </a></h3>
+                                <h3><a href="news/">Rebus на выставке-ярмарке отечественных производителей </a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>
@@ -269,7 +286,7 @@
                                 <li><i class="icon-eye-open"></i> 2757</li>
                             </ul>
                             <div class="entry-content">
-                                <p>В Душанбе прошла Национальная выставка промышленных товаров Республики Узбекистан.&nbsp;</p>
+                                <p>В Душанбе прошла Национальная выставка промышленных товаров.&nbsp;</p>
                             </div>
                         </div>
                     </div>
@@ -278,9 +295,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/Kabul_Afghanistan.png" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/2.jpg" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/">Презентация бытовой техники Artel в Афганистане</a></h3>
+                                <h3><a href="news/">Презентация бытовой техники Rebus</a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>
@@ -288,7 +305,7 @@
                                 <li><i class="icon-eye-open"></i> 1799</li>
                             </ul>
                             <div class="entry-content">
-                                <p><span class="newsContent">1го августа в<i>&nbsp;</i></span><span class="newsContent2">Афганистане&nbsp;</span><span class="newsContent">успешно прошла грандиозная презентация бытовой техники Artel.&nbsp;</span></p>
+                                <p><span class="newsContent">1го августа в<i>&nbsp;</i></span><span class="newsContent2">Шымкенте&nbsp;</span><span class="newsContent">успешно прошла грандиозная презентация бытовой техники Rebus.&nbsp;</span></p>
                             </div>
                         </div>
                     </div>
@@ -297,9 +314,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/ashxabad_news.png" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/3.jpg" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/">Artel на универсальной выставке «Международное экономическое развитие – 2017» в Туркменистане</a></h3>
+                                <h3><a href="news/">Rebus на универсальной выставке «Международное экономическое развитие – 2017»</a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>
@@ -307,7 +324,7 @@
                                 <li><i class="icon-eye-open"></i> 2197</li>
                             </ul>
                             <div class="entry-content">
-                                <p>В Ашхабаде 20-21 июня проходила универсальная выставка &laquo;Международное экономическое развитие &ndash; 2017&raquo;.&nbsp;</p>
+                                <p>В Астане 20-21 июня проходила универсальная выставка &laquo;Международное экономическое развитие &ndash; 2017&raquo;.&nbsp;</p>
                             </div>
                         </div>
                     </div>
@@ -316,9 +333,9 @@
                     <div class="col-md-3 col-sm-6 bottommargin">
                         <div class="ipost clearfix">
                             <div class="entry-image">
-                                <a href="news/"><img class="grayscale-h" src="img/articles/images/news/Ru/conton_news.jpg" alt="Image"></a>                            </div>
+                                <a href="news/"><img class="grayscale-h" src="img/articles/4.jpg" alt="Image"></a>                            </div>
                             <div class="entry-title">
-                                <h3><a href="news/">Artel на международной выставке Canton Fair 2017</a></h3>
+                                <h3><a href="news/">Rebus на международной выставке Redun Tiger</a></h3>
                             </div>
                             <ul class="entry-meta clearfix">
                                 <li>
@@ -326,7 +343,7 @@
                                 <li><i class="icon-eye-open"></i> 4315</li>
                             </ul>
                             <div class="entry-content">
-                                <p>Artel успешно представил свою экспозицию на 121-ой международной выставке Canton Fair 2017</p>
+                                <p>Rebus успешно представил свою экспозицию на международной выставке Redun Tiger 2017</p>
                             </div>
                         </div>
                     </div>

@@ -45,9 +45,8 @@
 
 .languages {
     float: left;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
     padding-right: 10px;
-    height: 60px;
+    height: 100px;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
     -ms-transition: all .4s ease;
@@ -79,7 +78,7 @@ body.top-search-open .languages {
     display: block;
     width: 25px;
     height: 100%;
-    line-height: 60px;
+    line-height: 100px;
     float: left;
     opacity: .5;
     -webkit-transition: all .2s ease;
@@ -254,3 +253,17 @@ body.top-search-open .languages {
 .logo img {
 	opacity: 0.9;
 }
+
+#primary-menu ul li>a:hover {
+    background: red;
+}
+
+#primary-menu ul li>a:hover div {
+    color: #fff;
+}
+
+
+.logo img:after {
+    content: "Просто для жизни!";
+}
+

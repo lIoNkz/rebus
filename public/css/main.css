@@ -44,7 +44,7 @@ li {
 body {
     line-height: 1.5;
     color: #555;
-    font-family: 'Lato', sans-serif
+    font-family: Regular, sans-serif
 }
 
 a {
@@ -78,7 +78,7 @@ h6 {
     font-weight: 600;
     line-height: 1.5;
     margin: 0 0 30px 0;
-    font-family: 'Raleway', sans-serif
+    font-family: Regular, sans-serif
 }
 
 h5,
@@ -143,7 +143,7 @@ form {
 }
 
 small {
-    font-family: 'Lato', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .uppercase {
@@ -495,15 +495,15 @@ span.middot {
 }
 
 .font-body {
-    font-family: 'Lato', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .font-primary {
-    font-family: 'Raleway', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .font-secondary {
-    font-family: 'Crete Round', serif
+    font-family: 'Regular', serif
 }
 
 .bgicon {
@@ -1215,7 +1215,7 @@ body.stretched #header.full-header .container {
 #logo {
     position: relative;
     float: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     font-size: 36px;
     line-height: 100%;
     margin-right: 40px
@@ -1352,13 +1352,13 @@ body.stretched #header.full-header .container {
 
 #primary-menu ul li>a {
     display: block;
-    line-height: 22px;
+    line-height: 60px;
     padding: 19px 10px;
     font-weight: bold;
     font-size: 13px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     -webkit-transition: margin .4s ease, padding .4s ease;
     -o-transition: margin .4s ease, padding .4s ease;
     transition: margin .4s ease, padding .4s ease;
@@ -1406,7 +1406,6 @@ body.no-superfish #primary-menu li:hover>.mega-menu-content {
     background-color: #FFF;
     box-shadow: 0 13px 42px 11px rgba(0, 0, 0, 0.05);
     border: 1px solid #EEE;
-    border-top: 2px solid #e3000f;
     height: auto;
     z-index: 199;
     top: 100%;
@@ -1442,11 +1441,12 @@ body.no-superfish #primary-menu li:hover>.mega-menu-content {
     font-size: 12px;
     font-weight: 600;
     color: #666;
+    line-height: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 0;
     letter-spacing: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Regular', sans-serif;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
@@ -1457,9 +1457,9 @@ body.no-superfish #primary-menu li:hover>.mega-menu-content {
 }
 
 #primary-menu ul ul li:hover>a {
-    background-color: #f9f9f9;
+    background-color: red;
     padding-left: 18px;
-    color: #e3000f
+    color: #fff
 }
 
 #primary-menu ul ul>li.sub-menu>a,
@@ -1548,7 +1548,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column>li.mega-menu-title>a {
     font-size: 13px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase!important;
     margin-bottom: 15px;
@@ -1967,7 +1967,7 @@ body.top-search-open #top-search form {
     color: #f1f1f1;
     font-weight: 700;
     margin-top: 0!important;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     letter-spacing: 2px
 }
 
@@ -2241,7 +2241,7 @@ body.top-search-open #side-panel-trigger {
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img {
-    height: 60px;
+    height: 100px;
     }
 
 #header.sticky-header:not(.static-sticky) #primary-menu>ul>li>a {
@@ -3511,7 +3511,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner {
     line-height: 1;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #000;
+    color: #fff;
     font-size: 28px;
     text-transform: uppercase
 }
@@ -3520,7 +3520,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner {
     display: block;
     margin-top: 10px;
     font-weight: 300;
-    color: #777;
+    color: #fff;
     font-size: 18px
 }
 
@@ -3544,18 +3544,18 @@ body.stretched .container-fullwidth .breadcrumb {
 }
 
 .breadcrumb a {
-    color: #000
+    color: #fff
 }
 
 #copyrights {
     background: url(../img/header-texture.png);
 }
 .breadcrumb a:hover {
-    color: #444;
+    color: #ccc;
 }
 
 .breadcrumb>.active {
-    color: #000;
+    color: #fff;
 }
 .breadcrumb i {
     width: auto!important
@@ -5103,7 +5103,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay {
     line-height: 14px;
     margin: 0 10px 15px 0;
     color: #999;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic
 }
 
@@ -5162,7 +5162,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay {
     padding: 30px 0;
     text-align: center;
     color: #444;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 24px;
@@ -5185,7 +5185,7 @@ body:not(.device-touch) .entry-link {
 .entry-link span {
     display: block;
     margin-top: 5px;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic;
     font-weight: normal;
     text-transform: none;
@@ -5200,7 +5200,7 @@ body:not(.device-touch) .entry-link {
 
 .entry blockquote p {
     font-weight: 400;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic
 }
 
@@ -5402,7 +5402,7 @@ body:not(.device-touch) .entry-link {
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .post-timeline .entry-timeline {
@@ -5548,7 +5548,7 @@ body:not(.device-touch) .entry-link {
     display: inline-block;
     border-bottom: 1px solid #e3000f;
     padding: 0 2px;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic
 }
 
@@ -5837,7 +5837,7 @@ body:not(.device-touch) .entry-link {
 .comment-content .comment-author span a {
     font-size: 12px;
     font-weight: normal;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic;
     color: #AAA
 }
@@ -5958,7 +5958,7 @@ div.alignright {
 .wp-caption {
     text-align: center;
     margin: 10px 20px 13px 20px;
-    font-family: 'Lato', Georgia, "Times New Roman", Times, serif;
+    font-family: 'Regular', Georgia, "Times New Roman", Times, serif;
     font-style: italic
 }
 
@@ -6875,7 +6875,7 @@ body:not(.device-touch) .button {
     font-size: 22px;
     height: auto;
     line-height: 1;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .button.button-desc span {
@@ -6884,7 +6884,7 @@ body:not(.device-touch) .button {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic;
     text-transform: none
 }
@@ -7616,8 +7616,8 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .feature-box h3 {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-family: Bold;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0;
@@ -8011,7 +8011,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-center.fbox-italic p {
     font-style: italic;
-    font-family: 'Lato', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .feature-box.fbox-bg.fbox-center {
@@ -9788,7 +9788,7 @@ ul.tab-nav-lg li {
 ul.tab-nav-lg li a {
     display: inline-block;
     color: #444;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
@@ -10200,7 +10200,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .testi-content p {
     margin-bottom: 0;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic
 }
 
@@ -10403,7 +10403,7 @@ body:not(.device-touch) .clients-grid li a {
     display: block;
     color: #e3000f;
     font-weight: 400;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic;
     font-size: 15px;
     margin-top: 5px
@@ -10742,7 +10742,7 @@ body:not(.device-touch) .team-overlay {
 .counter {
     font-size: 42px;
     font-weight: 600;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .counter.counter-small {
@@ -10874,7 +10874,7 @@ body:not(.device-touch) .rounded-skill {
 
 .skills li .progress-percent .counter {
     font-weight: 400;
-    font-family: 'Lato', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .progress-percent:after,
@@ -11509,7 +11509,7 @@ label {
     display: inline-block;
     font-size: 13px;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #555;
@@ -11706,11 +11706,17 @@ label.error {
 }
 
 .heading-block h1 {
-    font-size: 32px
+    font-size: 32px;
+    line-height: 80px;
+    color: #fff;
+    background: url(../img/header-texture.png);
 }
 
 .heading-block h2 {
-    font-size: 30px
+    font-size: 30px;
+    line-height: 80px;
+    color: #fff;
+    background: url(../img/header-texture.png);
 }
 
 .heading-block h3 {
@@ -11761,16 +11767,15 @@ label.error {
 .heading-block:after {
     content: '';
     display: block;
-    margin-top: 30px;
     width: 40px;
     border-top: 2px solid #444
 }
 
-.center .heading-block:after,
+/* .center .heading-block:after,
 .heading-block.center:after,
 .heading-block.title-center:after {
     margin: 30px auto 0
-}
+} */
 
 .tright .heading-block,
 .heading-block.tright,
@@ -11902,7 +11907,7 @@ label.error {
     display: block;
     margin: 0 0 5px;
     font-size: 16px;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     font-style: italic;
     font-weight: 400;
     color: #999
@@ -12802,7 +12807,7 @@ body:not(.device-touch) .tagcloud a {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 2px;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .nav-tree li i {
@@ -12841,7 +12846,7 @@ body:not(.device-touch) .tagcloud a {
     font-size: 12px;
     padding: 6px 0;
     letter-spacing: 1px;
-    font-family: 'Lato', sans-serif
+    font-family: 'Regular', sans-serif
 }
 
 .nav-tree ul ul a i.icon-angle-down {
@@ -12879,7 +12884,7 @@ body:not(.device-touch) .tagcloud a {
     font-weight: bold;
     text-align: right;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Regular', sans-serif;
     letter-spacing: 2px
 }
 
@@ -12895,7 +12900,7 @@ body:not(.device-touch) .tagcloud a {
     font-size: 56px;
     font-weight: 400;
     font-style: italic;
-    font-family: 'Crete Round', serif;
+    font-family: 'Regular', serif;
     text-transform: none
 }
 
@@ -14104,7 +14109,7 @@ body:not(.no-transition) #wrapper,
 	float: left;
 	display: block;
 	max-width: 270px;
-	height: 60px;
+	height: 100px;
 }
 
 .logo a {
@@ -14118,7 +14123,9 @@ body:not(.no-transition) #wrapper,
 	align-items: center;
 }
 .logo img {
-	width: 50%;
+	width: 70%;
+    padding-right: 25px;
+    border-right: 1px solid #ffc9c9;
 }
 
 #footer .container {
@@ -14133,4 +14140,66 @@ body:not(.no-transition) #wrapper,
     .container {
         width: 100%;
     }
+}
+
+.heading-block.center {
+    background: #ef0c0c;
+}
+
+
+
+div.city2,
+div.city3, 
+div.city4 {
+    display: none;      
+}
+
+
+
+button.city1,
+button.city2,
+button.city3,
+button.city4
+{
+    border: 0;
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+}
+
+button.city1.active,
+button.city2.active,
+button.city3.active,
+button.city4.active
+{
+    background: #ef0c0c;
+    color: #fff;
+}
+
+
+.site-contact .col_two_fifth {
+    padding: 0 2%;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+        background-color: #ff2119;
+    border-color: #d50f07;
+}
+
+
+#primary-menu ul li>a.fh {
+    -webkit-transform: skew(10deg);
+       -moz-transform: skew(10deg);
+     -o-transform: skew(10deg);
+}
+
+#primary-menu ul li>a.fh>div {
+    -webkit-transform: skew(-10deg);
+       -moz-transform: skew(-10deg);
+         -o-transform: skew(-10deg);
+}
+
+.product.product-view .col_half.nobottommargin {
+    padding: 0 5%;
+    margin-right: 0;
 }

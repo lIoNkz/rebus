@@ -27,6 +27,7 @@ class Category extends Model
 
     public $fillable = [
         'name',
+        'img',
         'parent_id'
     ];
 
@@ -37,6 +38,7 @@ class Category extends Model
      */
     protected $casts = [
         'name' => 'string',
+        'img' => 'string',
         'parent_id' => 'integer'
     ];
 
@@ -46,7 +48,8 @@ class Category extends Model
      * @var array
      */
     public static $rules = [
-        'name' => 'required'
+        'name' => 'required',
+        'img' => 'required'
     ];
 
     public function attributes()
@@ -79,9 +82,16 @@ class Category extends Model
                 'children' => $children
             ];
         }
+
+        return $array;
     } 
 
     public static function select() {
+        $res = self::withDepth()->having('depth','>=', 0)->get();
+        return ['' => 'Верхний уровень'] + $res->pluck('name', 'id')->all();
+    }
+
+    public static function arrayOfNestedSets() {
         $res = self::withDepth()->having('depth','=', 0)->get();
         return ['' => 'Верхний уровень'] + $res->pluck('name', 'id')->all();
     }

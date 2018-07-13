@@ -7,13 +7,19 @@
 <!-- Code Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('code', 'Code:') !!}
-    {!! Form::number('code', null, ['class' => 'form-control']) !!}
+    {!! Form::text('code', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Price Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('price', 'Price:') !!}
     {!! Form::number('price', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Img Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('img', 'img:') !!}
+    {!! Form::text('img', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Category Id Field -->

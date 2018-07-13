@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Regular; 
+    src: url(../fonts/FiraSans-Regular.otf) format('opentype'); 
+}
+
+* {
+	font-family: Regular;
+}
+
+
+@font-face {
+    font-family: Bold; 
+    src: url(../fonts/FiraSans-Bold.otf) format('opentype'); 
+}
+
+
+
+@font-face {
+    font-family: Light; 
+    src: url(../fonts/FiraSans-Light.otf) format('opentype'); 
+}
+

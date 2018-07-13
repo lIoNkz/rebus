@@ -11,7 +11,7 @@
 
             <h1>Сервисные центры</h1>
 
-            <ul class="breadcrumb"><li><a href="/">Home</a></li>
+            <ul class="breadcrumb"><li><a href="/">Главная</a></li>
 <li class="active">Сервисные центры</li>
 </ul>
         </div>
