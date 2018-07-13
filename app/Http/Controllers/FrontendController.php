@@ -44,13 +44,10 @@ class FrontendController extends Controller
 
       public function subcategory($id)
       {
-         $categories = Category::find($id)->descendants;
+         $categories = Category::children($id);
 
          $category = Category::find($id)->name;
-         //$number = Category::find($id)->descendants->first()->id;
-        // $depth = Category::find($id)->descendants->first()->withDepth()->find(21)->depth;
-        // dd($depth);
-         //$isLastCategory
+         
          return view('frontend.subcategory', compact('categories'))->with('category', $category);
 
       }

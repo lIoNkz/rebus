@@ -60,30 +60,40 @@ class Category extends Model
     public function products()
     {
         return $this->morphMany('App\Models\Product', 'category');
-    } 
+    }   
 
-    public static function children() {
+    public static function depth($id) {
+        return Category::withDepth()->find($id)->depth;
+    }
+
+    public static function children($id) {
         
-        $array = [];
-        $parents = self::withDepth()->having('depth','=', 0)->get();
+    
+        $parent = Category::find($id);
 
-
-
-        foreach($parents as $cat) {
-            $children = [];
-            if($cat->hasChildren()) {
-                $categories = $cat->descendants;
+            if($parent->hasChildren()) {
+                $categories = $parent->descendants->all();
             }
 
-            $children = $categories->all();
+            $elder = 99999;
+            $elderId = 0;
+            foreach($categories as $cat) {
+                $dep = Category::withDepth()->find($cat->id)->depth;
+                if($dep < $elder) {
 
-            $array[$cat->id] = [
-                'category' => $cat,
-                'children' => $children
-            ];
-        }
+                    $elder = $dep;
+                    $elderId = $cat->id;
+                }
 
-        return $array;
+            }
+
+            $sibling  = Category::find($elderId);
+            $children = Category::find($elderId)->siblings()->get();
+
+            $children->push($sibling);
+
+
+            return $children;
     } 
 
     public static function select() {
